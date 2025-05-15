@@ -9,6 +9,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1,h2{
+  color: rgb(252, 202, 16) !important;
+text-transform: uppercase;
+}
+h1{
+  font-size: 48px !important;
+}
+p{
+  color: black;
+}
+.details p{
+  color: #ffffff;
+}
 .leftside {
   position: fixed !important;
   top: 0;
