@@ -93,7 +93,7 @@ function displayMealDetails(meal) {
   // كود HTML لتفاصيل الوجبة
   const html = `
     <div class="row text-white">
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-lg-4 details">
         <img src="${meal.strMealThumb}" alt="${
     meal.strMeal
   }" class="w-100 rounded-3">
