@@ -6,14 +6,18 @@ $(document).on("click", ".open-menu", function () {
 
   $("#sidebar .nav-tab a").removeClass("show");
 
-  $("#sidebar .nav-tab a").each(function (index) {
-    $(this)
-      .delay(index * 150)
-      .queue(function (next) {
-        $(this).addClass("show");
-        next();
-      });
-  });
+ const items = $("#sidebar .nav-tab a");
+const total = items.length;
+
+items.each(function (index) {
+  const reversedIndex = total - 1 - index; // عشان يبدأ من الآخر
+  $(this)
+    .delay(reversedIndex * 400)
+    .queue(function (next) {
+      $(this).addClass("show");
+      next();
+    });
+});
 });
 
 $(document).on("click", ".close-menu", function () {
