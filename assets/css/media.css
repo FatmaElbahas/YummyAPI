@@ -1,7 +1,7 @@
  @media (max-width: 576px) {
    .container {
     max-width: 540px;
-    /* padding-left: 90px !important; */
+     padding-left: 90px !important; 
      text-align: center !important;
   }
 }
@@ -9,7 +9,7 @@
 @media (max-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
-        /* padding-left: 80px !important; */
+         padding-left: 80px !important; 
       text-align: center !important;
   }
 }
@@ -17,7 +17,7 @@
 @media (max-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
-     /* padding-left: 90px !important; */
+      padding-left: 90px !important; 
       text-align: center !important;
   }
 } 
